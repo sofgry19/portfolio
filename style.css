@@ -1,0 +1,221 @@
+body{
+  background-color: #F9F9F9;
+  font-family: 'Mulish', sans-serif;
+  height: 100vh;
+}
+
+#head{
+  font-size: 20px;
+}
+
+header{
+  color: #540804;
+  font-size: 2em;
+  text-align: center;
+  margin-right: 0.5em;
+}
+
+h1{
+  color: #A32826;
+  font-family: 'Mulish', sans-serif;
+}
+
+p{
+  color: #30343F;
+}
+
+ol{
+  color: #5C5D67;
+}
+
+figcaption{
+  text-align: center;
+  padding-top: 1em;
+  color: #5C5D67;
+  font-family: 'Signika Negative', sans-serif;
+  max-width: 300px;
+  margin: auto;
+}
+
+hr{
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+
+.menu{
+  cursor: pointer;
+}
+
+div.figure {
+  float: right;
+  width: 30%;
+  /*border: thin black solid;*/
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  min-width: 300px;
+}
+
+figure.figure{
+  float:inherit;
+  display: inline-block;
+  position: relative;
+  height: 90%;
+  margin: 1% 4% 4% 1%;
+  text-align: left;
+  font-size: smaller;
+  text-indent: 0;
+  min-height: 240px;
+}
+
+.image{
+  float: inherit;
+  position:inherit;
+  width: 70%;
+  height: 70%;
+
+}
+
+.designImage{
+  float: inherit;
+  position:inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.topnav {
+  position: fixed;
+  background-color: #F9F9F9;
+  color: #F9F9F9;
+  overflow: hidden;
+  text-decoration: none;
+  z-index: 1;
+}
+
+ul.topnav{
+  text-decoration: none;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #5C5D67;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 1s;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: all 1s;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #E65F5C;
+  color: white;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+#none{
+  text-decoration: none;
+}
+
+.boxes {
+    display: inline-block;
+    position: relative;
+    margin: 1% 4% 4% 1%;
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+    background-color: #B0D0D3;
+    transition: all 2s;
+
+} /* boxes class; gives the boxes their shape, color, and behavior*/
+
+
+.boxes:hover {
+  background-color: #B0D0D3;
+  cursor: pointer;
+  transform: scale(1.1);
+} /* code for when you hover over the boxes*/
+
+.posterBoxes{
+  display: inline-block;
+  position: relative;
+  margin: 3% 3% 3% 3%;
+  height: 350px;
+  width: 250px;
+  border-radius: 10%;
+  transition: all 2s;
+}
+
+.posterBoxes:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.wideBoxes{
+  display: inline-block;
+  position: relative;
+  margin: 3% 3% 3% 3%;
+  height: 350px;
+  width: 400px;
+  border-radius: 10%;
+  transition: all 2s;
+}
+
+.wideBoxes:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.longBoxes{
+  display: inline-block;
+  position: relative;
+  margin: 3% 3% 3% 3%;
+  height: 250px;
+  width: 400px;
+  border-radius: 10%;
+  transition: all 2s;
+}
+
+.longBoxes:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .wideBoxes {
+    height: 250px;
+    width: 300px;
+  }
+  .longBoxes{
+    height:auto;
+    width: 300px;
+  }
+  .posterBoxes{
+    height:250px;
+    width: 150px;
+  }
+  .boxes{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+#circlePic
+{
+  border-radius: 50%;
+}
